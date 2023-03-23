@@ -11,26 +11,36 @@
 
         body {
             font-family: 'Roboto Mono', monospace;
-            background-image: url('foto-nalther.jpg');
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-size: cover;
+            /*background-image: url('foto-nalther-e-pai.jpg');*/
+            background-color: black;
+            color: white;
         }
-        
+
         a{
+            
             font-family: 'Alkatra', cursive;
             color: white;
             background-color: green;
             border-radius: 3px;
             text-decoration: none;
             padding: 5px;
-           
         }
 
         #nome{
             color: green;
-            text-align: center;
             letter-spacing: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            position: fixed;
+            right: 0;
+            left: 0;
+            
+        }
+
+        img{
+            border-radius: 100%;
         }
 
         #foto-do-perfil{
@@ -42,14 +52,36 @@
         #sobre-mim{
             text-align: center;
             font-size: 30px;
+            background-color: green;
+            font-weight: 500px;
+            font-style: italic;
+            letter-spacing: 10px;
+        }
+
+        ul, #hab, p{
+            text-align: center;
+        }
+
+        #fotos{
+            display: inline-block;
+            position: absolute;
+        }
+
+        #fotos label{
+            position: absolute;
+            top: 145px;
+            right: 20px;
+            font-size: 40px;
+            color: black;
+            text-shadow: 0px 0px 5px black;
         }
 
     </style>
 </head>
 <body>
-    <h1 id="nome">- Nalther Ganem -</h1>
-    <hr>
-    <img src="/foto-nalther-e-pai.jpg" alt="Foto de Nalther abaixado com o cristo redentor no fundo da imagem" width="300px" id="foto-do-perfil"> 
+    <h1 id="nome">° Nalther Ganem - Turma 32 - Tribo B °</h1>
+    <br>
+    <br>
     <br>
     <h4 id="sobre-mim">SOBRE MIM</h4>
     <p>
@@ -61,18 +93,37 @@
         <br>
         Este será meu Portifólio Online, onde eu atualizarei todos os dias mediante as conclusões dos assuntos e sempre que necessário.
         <br>
-        #TRYBER #VQV #TRYBER
-    </p>
-    <br>
+        <strong>#TRYBER #VQV #TRYBER</strong>
+        <br>
+        <br>
+        <p id="fotos">
+            <p>
+                <img src="familia.jpg" alt="foto de nalther abaixado com o cristo redentor bo fundo da foto" id="foto-nalther" width="300px">
+                
+                <img src="moto.jpg" alt="foto da moto de nalther" id="foto-moto" width="300px">         
+               
+                <img src="nal-cruzeiro.jpg" alt="foto de nalther na escada de cristais do cruzeiro MSC Seashore" id="foto-cruzeiro" width="300px">
+                           
+                <img src="nalther-e-rafa.jpg" alt="foto de nalther e sua namorada no espelho" id="foto-nalther-rafa" width="300px">
+            </p>
+            <p>
+                A primeira foto é uma foto qeu talvez seja a que mais me representa, minha família. Eu sou o tipo de cara que gosta de casa cheia e de ter minha familia toda reuniada sempre que possível.<br>
+                Na segunda tem a minha paixão, minha moto, meu desestresse diário. Eu amo pilotar, amo sair sem ruma, pra qualquer lugar só pra ouvir o escape roncando e o vento no corpo.<br>
+                A terceira foto foi uma viagem ue fiz em 2023 de Cruzeiro aqui pelo Brasil com minha familia, onde, depoi de 11 anos que viagei de cruzeiro, pude reviver essa experiência incrivel novamente.<br>
+                E na última, mas não menos importante, temos o amor da minha vida, a baixinha mais fofa do mundo, a pessoa que me traz de volta, que me acalma e que ta sempre comigo, até nas loucuras.<br>
+                Acho que essas quatro imagens definem muito bem aquilo que sou, que tenho e que gosto de fazer, minha familia, minha moto, minhas viagens e minha namorada.
+            </p>
+        </p>
+    <br><br>
     <a href="https://www.linkedin.com/in/naltherganem/" target="_blank" >linkedin</a>
     <a href="https://github.com/NaltherGanemDev" target="_blank" >GitHub</a>
     <hr>
-    <h3>HABILIDADES</h3>
+    <h3 id="hab">HABILIDADES</h3>
         <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li><strong>PILOTAR MINHA MOTO</strong> (ISSO AI EU FAÇO COMO NINGUÉM) </li>
-            <li>PHOTOSHOP/li>
+            <li>PHOTOSHOP</li>
             <li>COZINHAR</li>
         </ul>
         <hr>
