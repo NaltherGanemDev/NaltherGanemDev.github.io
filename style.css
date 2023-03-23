@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    /*background-image: url('foto-nalther-e-pai.jpg');*/
+    background-color: black;
+    color: white;
+}
+
+a {
+    
+    font-family: 'Alkatra', cursive;
+    color: white;
+    background-color: green;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#nome {
+    color: green;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-top: 0%;
+    
+}
+
+#foto-nalther, #foto-moto, #foto-cruzeiro, #foto-nalther-rafa {
+    border-radius: 100%;
+
+}
+
+#foto-do-perfil {
+border-color: green;
+border-style: outset;
+
+}
+
+#sobre-mim {
+text-align: left;
+font-size: 70px;
+font-weight: 400px;
+font-style: italic;
+letter-spacing: 10px;
+margin-left: 0px;
+}
+
+ul, #hab, p {
+text-align: center;
+}
+
+#fotos {
+display: inline-block;
+position: absolute;
+}
+
+#fotos label {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 0px 5px black;
+}
+
+#social-midia {
+    left: 500px;
+}
+
+#header {
+    background-image: url(foto-nalther-e-pai.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    width: 100%;
+    background-size: 100%;
+    
+    
+}
+
+#fotos-textos {
+    padding-top: 60px;
+    text-align: center;
+    display: inline-block;
+}
